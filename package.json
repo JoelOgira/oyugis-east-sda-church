@@ -1,11 +1,12 @@
 {
   "name": "oyugis-east-sda-church",
+  "homepage": "https://oecsda.org/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "npx serve@latest out",
     "lint": "next lint"
   },
   "dependencies": {
