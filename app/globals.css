@@ -2,30 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
 /* ***********  Hamburger menu  ************* */
 .hamburger {
   cursor: pointer;
@@ -74,3 +50,27 @@ body {
   transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 /* ***********  Hamburger menu  ************* */
+
+h2 {
+  @apply text-transparent bg-clip-text bg-gradient-to-t from-tertiary to-primary;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-b from-secondary to-tertiary;
+}
+
+.bg-gradient-dark {
+  @apply bg-gradient-to-r from-primary to-darkBlue;
+}
+
+.footer-bg {
+  background: url("../public/congregation.jpg");
+  background-size: 100% 100%;
+}
+
+@media(max-width: 768px) {
+  .footer-bg {
+      background-image: url("../public/congregation.jpg")no-repeat fixed center center;
+      background-size: cover;
+  }
+}
