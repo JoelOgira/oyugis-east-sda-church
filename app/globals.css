@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  min-height: 100dvh;
+}
+
 /* ***********  Hamburger menu  ************* */
 .hamburger {
   cursor: pointer;
@@ -56,7 +60,7 @@ h2 {
 }
 
 .bg-gradient {
-  @apply bg-gradient-to-b from-secondary to-tertiary;
+  @apply bg-gradient-to-t from-primary to-tertiary;
 }
 
 .bg-gradient-dark {
