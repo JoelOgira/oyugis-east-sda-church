@@ -5,11 +5,6 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata = {
-  title: 'Oyugis East Sda Church',
-  description: 'Explore the welcoming community of Oyugis East Seventh-day Adventist Church. Discover our beliefs, activities, and events. Join us in worship and fellowship.',
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
