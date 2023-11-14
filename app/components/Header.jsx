@@ -64,7 +64,6 @@ export default function Header() {
                     </div>
 
                     <Link href="/ministries" className="hover:text-gray-400">Ministries</Link>
-                    <Link href="/bulletins" className="hover:text-gray-400">Bulletins</Link>
                     <Link href="/resources" className="hover:text-gray-400">Resources</Link>
 
                     <div onMouseEnter={handleMedia} onMouseLeave={handleMedia} className="cursor-pointer">
@@ -75,7 +74,7 @@ export default function Header() {
                         {isMediaClosed ? '' :
                             <div className="z-50">
                                 <div className="bg-gradient absolute pr-9 pl-3 py-3 flex flex-col space-y-3 shadow-md hover:[&>a]:text-gray-400">
-                                    <Link onClick={handleMedia} href="/media" >Our Music</Link>
+                                    <Link onClick={handleMedia} href="/media/music" >Our Music</Link>
                                     <Link onClick={handleMedia} href="/media/sermons" >Live Sermons</Link>
                                 </div>
                             </div>}
@@ -97,7 +96,7 @@ export default function Header() {
             </div>
 
             <div className="lg:hidden">
-                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} absolute place-items-start self-end py-8 mt-3  font-thin bg-opacity-[0.98] text-white rounded bg-gradient-to-b from-secondary to-tertiary sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} absolute place-items-start self-end py-8 mt-3  font-thin bg-opacity-[0.98] text-white rounded bg-gradient sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
                     <div className="mx-auto flex flex-col space-y-6">
                         <Link onClick={() => { handleOpen(); handleHidden() }} href="/">Home</Link>
 
@@ -116,7 +115,6 @@ export default function Header() {
                         </div>
 
                         <Link onClick={() => { handleOpen(); handleHidden() }} href="/ministries">Ministries</Link>
-                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/bulletins">Bulletins</Link>
                         <Link onClick={() => { handleOpen(); handleHidden() }} href="/resources">Resources</Link>
 
                         <div onClick={handleMedia} className="cursor-pointer">
@@ -127,7 +125,7 @@ export default function Header() {
                             {isMediaClosed ? '' :
                                 <div className="z-50">
                                     <div className="relative pt-2 flex flex-col space-y-3 shadow-md hover:[&>a]:text-gray-400 [&>a]:border-b [&>a]:pb-2 hover:[&>a]:border-gray-400">
-                                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/media" >Our Music</Link>
+                                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/media/music" >Our Music</Link>
                                         <Link onClick={() => { handleOpen(); handleHidden() }} href="/media/sermons" >Live Sermons</Link>
                                     </div>
                                 </div>}
