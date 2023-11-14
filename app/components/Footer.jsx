@@ -9,7 +9,7 @@ export default function Footer() {
     const thisYear = new Date().getFullYear();
     return (
         <main className="footer-bg top-full sticky text-white">
-            <div className="bg-darkBlue bg-opacity-[.87] lg:bg-opacity-9
+            <div className="bg-secondary bg-opacity-[.95] lg:bg-opacity-9
             0">
                 <div className="flex flex-col space-y-12 py-14 px-3 mx-auto md:flex-row md:space-y-0 md:space-x-8 md:justify-between  md:container lg:px-0 lg:w-3/4 lg:py-20">
                     <div className="flex flex-col space-y-4 md:w-1/3">
@@ -55,7 +55,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className="bg-gradient-dark py-8 text-white">
+            <div className="bg-gradient py-8 text-white">
                 <div className="flex justify-center items-center text-xs px-5 mx-auto container md:text-base lg:px-0 lg:w-3/4">
                     <p className="text-center">Seventh-Day Adventist Church Oyugis East &copy; {thisYear}</p>
                 </div>
