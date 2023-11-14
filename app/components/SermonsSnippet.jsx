@@ -1,12 +1,10 @@
 "use client"
 
-// SermonsSnippet.jsx
-import dynamic from 'next/dynamic';
-import { sermonsList } from '../media/import';
-import ButtonInternal from './utils/ButtonInternal';
+import dynamic from 'next/dynamic'
+import { sermonsList } from '../media/import'
+import ButtonInternal from './utils/ButtonInternal'
 
-// Dynamically import ReactPlayer to avoid server-side rendering issues
-const DynamicReactPlayer = dynamic(() => import('react-player/youtube'), { ssr: false });
+const DynamicReactPlayer = dynamic(() => import('react-player/youtube'), { ssr: false })
 
 export default function SermonsSnippet() {
   return (
@@ -17,7 +15,6 @@ export default function SermonsSnippet() {
           {sermonsList.slice(0, 4).map((sermon, index) => (
             <div key={index} className="flex flex-col">
               <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
-                {/* Use the dynamically imported ReactPlayer component */}
                 <DynamicReactPlayer
                   controls
                   url={sermon.src}
@@ -38,5 +35,5 @@ export default function SermonsSnippet() {
         </div>
       </div>
     </div>
-  );
+  )
 }
