@@ -4,6 +4,11 @@ import { AiOutlineFilePdf } from 'react-icons/ai'
 import { FcAudioFile } from 'react-icons/fc'
 import Image from 'next/image'
 
+export const metadata = {
+    title: 'Oyugis East Sda Church | Resources',
+    description: 'This resources page provides you with an assortment of materials that will be valuable for your spiritual growth.',
+  }
+
 export default function Resources() {
     return (
         <main className="px-3 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
