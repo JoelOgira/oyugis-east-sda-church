@@ -1,13 +1,15 @@
-import Button from "./Button"
+import Button from "./utils/Button"
+import gcBuilding from "../../public/GC-Building.jpg"
+import Image from "next/image"
 
 export default function Showcase() {
   return (
     <div className="w-full showcase-bg">
-      <div className="bg-gradient-to-r from-secondary to-tertiary bg-opacity-90">
+      <div className="bg-gradient">
         <div className="px-3 py-12 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4" >
-          <h1 className='text-center font-bold text-xl text-gray-100 pb-8 max-w-sm mx-auto lg:text-2xl lg:max-w-lg'>
+          <h2 className='text-center text-white font-bold text-xl pb-8 max-w-sm mx-auto lg:text-2xl lg:max-w-lg'>
             Welcome to Seventh Day Adventist Church Oyugis East
-          </h1>
+          </h2>
           <div className="flex flex-col-reverse md:flex-row md:space-x-10 md:space-y-0">
             <div className="flex flex-col space-y-6 justify-center mt-8 items-center text-center md:justify-start md:mt-0 md:items-start md:text-start md:w-1/2 lg:grid lg:items-center">
               <p className='font-semibold text-gray-100 max-w-sm lg:leading-8'>
@@ -20,7 +22,7 @@ export default function Showcase() {
             </div>
 
             <div className="md:w-1/2">
-              {/* <img src={gcBuilding} alt="sda general conference building" className='h-full' /> */}
+              <Image src={gcBuilding} alt="sda general conference building" className='h-full italic' />
             </div>
           </div>
         </div>
