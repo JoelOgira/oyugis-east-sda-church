@@ -38,7 +38,7 @@ export default function Header() {
                 <Link href="/" className="xl:border-2 xl:border-white xl:rounded">
                     <span className="flex items-center space-x-2 xl:border-[1.5px] xl:border-black xl:rounded">
                         <Image src={logo} alt="Site Icon" className="w-[40px] xl:w-[45px]" />
-                        <div className="hidden xl:flex xl:flex-col xl:[&>p]:text-white xl:[&>p]:text-[0.60rem] xl:[&>p]:underline">
+                        <div className="flex flex-col [&>p]:text-white [&>p]:underline [&>p]:text-[.50rem] xl:[&>p]:text-[0.60rem]">
                             <p className="max-w-[8rem]">Seventh-day</p>
                             <p className="max-w-[8rem]">Adventist Church</p>
                             <p className="max-w-[8rem]">Oyugis East</p>
@@ -46,7 +46,7 @@ export default function Header() {
                     </span>
                 </Link>
 
-                <div className="hidden lg:flex lg:flex-wrap lg:items-center lg:justify-center space-x-6 font-thin text-white">
+                <div className="hidden lg:flex lg:flex-wrap lg:items-center lg:justify-center space-x-5 text-white">
                     <Link href="/" className="hover:text-gray-400">Home</Link>
 
                     <div onMouseEnter={handleAbout} onMouseLeave={handleAbout} className="cursor-pointer">
@@ -57,8 +57,8 @@ export default function Header() {
                         {isAboutClosed ? '' :
                             <div className="z-50">
                                 <div className="bg-gradient absolute pr-9 pl-3 py-3 flex flex-col space-y-3 shadow-md hover:[&>a]:text-gray-400">
-                                    <Link onClick={handleAbout} href="/about" >Our Church</Link>
-                                    <Link onClick={handleAbout} href="/about/beliefs" >Our Beliefs</Link>
+                                    <Link onClick={handleAbout} href="/about/our-church" >Our Church</Link>
+                                    <Link onClick={handleAbout} href="/about/our-beliefs" >Our Beliefs</Link>
                                 </div>
                             </div>}
                     </div>
@@ -96,7 +96,7 @@ export default function Header() {
             </div>
 
             <div className="lg:hidden">
-                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} absolute place-items-start self-end py-8 mt-3  font-thin bg-opacity-[0.98] text-white rounded bg-gradient sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
+                <div id="menu" className={`flex-col ${isHidden ? 'hidden' : 'flex'} absolute place-items-start self-end py-8 mt-3 bg-opacity-[0.98] text-white rounded bg-gradient sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}>
                     <div className="mx-auto flex flex-col space-y-6">
                         <Link onClick={() => { handleOpen(); handleHidden() }} href="/">Home</Link>
 
@@ -108,8 +108,8 @@ export default function Header() {
                             {isAboutClosed ? '' :
                                 <div className="z-50">
                                     <div className="text-gray-200 relative pt-2 flex flex-col space-y-4 hover:[&>a]:text-gray-400 [&>a]:border-b [&>a]:pb-2 hover:[&>a]:border-gray-400">
-                                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/about" >Our Church</Link>
-                                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/about/beliefs" >Our Beliefs</Link>
+                                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/about/our-church" >Our Church</Link>
+                                        <Link onClick={() => { handleOpen(); handleHidden() }} href="/about/our-beliefs" >Our Beliefs</Link>
                                     </div>
                                 </div>}
                         </div>
