@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from "next/link"
 import { BiSolidRightArrowAlt } from 'react-icons/bi'
 import { FaLocationDot, FaPhone } from 'react-icons/fa6'
@@ -15,7 +16,7 @@ export default function Footer() {
                     <div className="flex flex-col space-y-4 md:w-1/3">
                         <h3 className="text-xl font-bold underline">Our Mission</h3>
                         <p className="md:max-w-xs text-sm leading-7 lg:text-justify">
-                            Our mission as Seventh – day Adventists is “To bring the people of God into a meaningful Church fellowship, witnessing to every neighbourhood, preaching the Good News, serving mankind and developing disciples for Jesus to prepare for Christ’s second coming”.
+                            Our mission as Oyugis East Sda Church “To Make Disciples of all people, communicating the everlasting gospel in the context of the three angel's messages of Revelation 14:6-12, leading them to accept Jesus as personal saviour and unite with His remnant Church, discipling them to serve Him as Lord, and prepare tem for His soon coming.”
                         </p>
                     </div>
 
