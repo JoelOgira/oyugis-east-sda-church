@@ -10,9 +10,9 @@ export default function OurLeadership() {
     return (
         <div className="w-full bg-gray-50">
             <div className="px-3 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
-                <h1 className='font-bold text-primary text-2xl lg:leading-8 underline lg:text-3xl'>
+                <h2 className='font-bold text-2xl lg:leading-8 lg:text-3xl'>
                     Church Leadership
-                </h1>
+                </h2>
                 <div className="flex flex-col md:flex-row md:space-x-10 md:space-y-0 pt-16">
                     <div className="flex justify-center items-center md:w-1/2">
                         <Image src={pastor} alt="sda general conference building" className='h-[300px] w-[300px] md:h-[350px] md:w-[350px]' />
@@ -50,7 +50,7 @@ export default function OurLeadership() {
                             Church Officers
                         </h2>
                         <p className="leading-6 text-sm md:text-base lg:max-w-[64rem]">
-                            In the Seventh-day Adventist(SDA) Church, church elders plays a significant role in the leadership and pastoral care of the congregation.
+                            Oyugis East Seventh-day Adventist(SDA) Church, has elders that play a significant role in the leadership and pastoral care of the congregation.
                             They are first and foremost spiritual leaders who are ordained to provide spiritual guidance to the members of the church.
                             They also provide advice and assistance to the church pastor in the running of the church.
                         </p>
