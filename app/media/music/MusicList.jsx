@@ -32,7 +32,7 @@ export default function MusicList() {
                                     style={{ position: "absolute" }}
                                 />
                             </div>
-                            <p className="text-sm text-white mt-2 max-w-xs font-semibold font-sans">
+                            <p className="text-sm text-white pt-1 max-w-xs font-semibold font-sans">
                                 {music?.title}
                             </p>
                         </div>
