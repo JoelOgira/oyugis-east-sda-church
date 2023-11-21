@@ -10,16 +10,16 @@ export default function OurLeadership() {
     return (
         <div className="w-full bg-gray-50">
             <div className="px-3 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
-                <h2 className='font-bold text-2xl lg:leading-8 lg:text-3xl'>
+                <h3 className='text-tertiary underline font-bold text-2xl lg:leading-8 lg:text-3xl'>
                     Church Leadership
-                </h2>
+                </h3>
                 <div className="flex flex-col md:flex-row md:space-x-10 md:space-y-0 pt-16">
                     <div className="flex justify-center items-center md:w-1/2">
                         <Image src={pastor} alt="sda general conference building" className='h-[300px] w-[300px] md:h-[350px] md:w-[350px]' />
                     </div>
 
                     <div className="flex flex-col space-y-4 justify-start mt-8 items-start text-justify md:justify-start md:mt-0 md:items-start md:text-start md:w-1/2">
-                        <h2 className='font-bold text-xl lg:leading-8 lg:text-3xl'>
+                        <h2 className='font-bold text-xl lg:leading-8 lg:text-2xl'>
                             District & Church Pastor
                         </h2>
                         <p className='text-sm leading-6 md:text-base lg:max-w-lg'>
