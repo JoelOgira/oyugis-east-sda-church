@@ -1,17 +1,19 @@
 import Zablon from '../../public/Zablon.png'
+import David from '../../public/David.jpg'
+import Okanda from '../../public/Okanda.jpg'
+import Odie from '../../public/Odie.jpg'
+import Bull from '../../public/Bull.jpg'
+import Kasuku from '../../public/Kasuku.jpg'
+import Molline from '../../public/Molline.jpg'
 
 export const churchElders = [
-    { src: Zablon, title: "Head Elder", name: "Eld. David Oluoch", number: "+254709876543",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Church Clerk", name: "Eld. Paul Odie", number: "+254712876683",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Church Treasurer", name: "Sis Molline Adhiambo", number: "+254723412812",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Elder, Head In-Reach Cluster", name: "Eld. Zablon Maua", number: "+254721549932",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Elder, Head Outreach cluster", name: "Eld. Ezekiel Kasuku", number: "+254714196286",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Elder", name: "Eld. Sis. Sellah Ndisio", number: "+254726586003",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Elder", name: "Eld. Sis. Milcah Fred", number: "+254718465045",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Elder", name: "Eld. Edward Okanda", number: "+254722901058",  email: "elderoluoch@gmail.com" },
-    { src: Zablon, title: "Elder", name: "Eld. Ronald Osom", number: "+254722934975",  email: "elderoluoch@gmail.com" },     
-    { src: Zablon, title: "Head Deacon", name: "Bro. David Oluoch Onyango", number: "+254720718021",  email: "elderoluoch@gmail.com" },     
-    { src: Zablon, title: "Head Deaconess", name: "Sis. Emily Okanda", number: "+254723934897",  email: "elderoluoch@gmail.com" },     
+    { src: David, title: "Head Elder", name: "Eld. David Oluoch", number: "+254709876543" },
+    { src: Odie, title: "Church Clerk", name: "Eld. Paul Odie", number: "+254712876683" },
+    { src: Molline, title: "Church Treasurer", name: "Sis Molline Adhiambo", number: "+254723412812" },
+    { src: Zablon, title: "Elder, Head In-Reach Cluster", name: "Eld. Zablon Maua", number: "+254721549932" },
+    { src: Kasuku, title: "Elder, Head Outreach cluster", name: "Eld. Ezekiel Kasuku", number: "+254714196286" },
+    { src: Okanda, title: "Elder", name: "Eld. Edward Okanda", number: "+254722901058" },   
+    { src: Bull, title: "Head Deacon", name: "Bro. David Oluoch Onyango", number: "+254720718021" },         
 ]
 
 export const beliefs = [
