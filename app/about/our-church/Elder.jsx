@@ -23,10 +23,6 @@ const Elder = ({ src, title, name, number, email }) => {
                                     <span><IoPhonePortraitOutline className="text-gray-500" /></span>
                                     <span>{number}</span>
                                 </p>
-                                <p>
-                                    <span><TfiEmail className="text-gray-500" /></span>
-                                    <span>{email}</span>
-                                </p>
                             </div>
 
                         </div>
