@@ -58,7 +58,7 @@ const ContactForm = () => {
                         type="text"
                         placeholder="Full Name"
                         name="name"
-                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50"
+                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50 rounded"
                         {...register('name')}
                     />
                     {errors.name && (
@@ -71,7 +71,7 @@ const ContactForm = () => {
                         type="email"
                         name="email"
                         placeholder="Email Address"
-                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50"
+                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50 rounded"
                         {...register('email')}
                     />
                     {errors.email && (
@@ -84,7 +84,7 @@ const ContactForm = () => {
                         type="text"
                         name="subject"
                         placeholder="Subject"
-                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50"
+                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50 rounded"
                         {...register('subject')}
                     />
                     {errors.subject && (
@@ -98,7 +98,7 @@ const ContactForm = () => {
                         rows="6"
                         name="message"
                         placeholder="Message"
-                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50"
+                        className="bg-gray-50 p-4 focus:outline-none focus:bg-transparent focus:border focus:border-gray-50 rounded"
                         {...register('message')}
                     ></textarea>
                     {errors.message && (
