@@ -24,11 +24,11 @@ export default function SermonsList() {
                                     controls
                                     url={sermon.src}
                                     width="100%"
-                                    height="100%" // Set a fixed height for the player
+                                    height="100%"
                                     style={{ position: "absolute" }}
                                 />
                             </div>
-                            <p className="text-sm text-white mt-2 max-w-xs font-semibold font-sans">
+                            <p className="text-sm text-white pt-1 max-w-xs font-semibold font-sans">
                                 {sermon?.topic}
                             </p>
                         </div>
