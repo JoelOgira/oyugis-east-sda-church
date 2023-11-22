@@ -6,6 +6,23 @@ body {
   min-height: 100dvh;
 }
 
+/* ***********  Global Styling  ************* */
+
+h2 {
+  @apply text-transparent bg-clip-text bg-gradient-to-t from-tertiary to-primary;
+}
+
+.bg-gradient {
+  @apply bg-gradient-to-t from-primary to-tertiary;
+}
+
+.bg-gradient-dark {
+  @apply bg-gradient-to-r from-primary to-darkBlue;
+}
+
+/* ***********  Global Styling  ************* */
+
+
 /* ***********  Hamburger menu  ************* */
 .hamburger {
   cursor: pointer;
@@ -55,16 +72,22 @@ body {
 }
 /* ***********  Hamburger menu  ************* */
 
-h2 {
-  @apply text-transparent bg-clip-text bg-gradient-to-t from-tertiary to-primary;
+/* Carousel */
+.slider-1 {
+  background: url("../public/choir1.jpg");
+  background-size: 100% 100%;
+}
+/* Carousel */
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+#slider::-webkit-scrollbar {
+  display: none;
 }
 
-.bg-gradient {
-  @apply bg-gradient-to-t from-primary to-tertiary;
-}
-
-.bg-gradient-dark {
-  @apply bg-gradient-to-r from-primary to-darkBlue;
+/* Hide scrollbar for IE, Edge, and Firefox */
+#slider {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 
 .footer-bg {
