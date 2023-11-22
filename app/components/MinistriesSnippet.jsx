@@ -37,7 +37,7 @@ export default function MinistriesSnippet() {
                                 <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                                 <div id="slider" className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth'>
                                     {(ministriesList || []).map((ministry) => (
-                                        <div key={ministry?.id} className="inline-block p-2 px-4 cursor-pointer hover:scale-105 ease-in-out duration-300">
+                                        <div key={ministry?.id} className="inline-block p-2 px-4 hover:scale-105 ease-in-out duration-300">
                                             <Image
                                                 loading='lazy'
                                                 src={ministry?.img}
