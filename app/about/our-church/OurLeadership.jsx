@@ -1,5 +1,4 @@
 import { IoPhonePortraitOutline } from 'react-icons/io5'
-import { TfiEmail } from 'react-icons/tfi'
 import Elder from "./Elder"
 import { churchElders } from '../import'
 import pastor from '../../../public/pastor.png'
@@ -35,7 +34,6 @@ export default function OurLeadership() {
                                 <p className="text-gray-500">District & Church Pastor</p>
                             </div>
                             <p><span><IoPhonePortraitOutline className="text-lg text-gray-500" /></span> <span>+254713446764</span></p>
-                            <p><span><TfiEmail className="text-xl text-gray-500" /></span> <span>osida.evangelist@gmail.com</span></p>
                         </div>
                     </div>
                 </div>
