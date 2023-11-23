@@ -1,6 +1,7 @@
 import CallToAction from "./components/CallToAction"
 import EmblaCarousel from "./components/EmblaCarousel"
 import MinistriesSnippet from "./components/MinistriesSnippet"
+import ResourcesSnippet from "./components/ResourcesSnippet"
 import SermonsSnippet from "./components/SermonsSnippet"
 import Showcase from "./components/Showcase"
 import Tithes from "./components/Tithes"
@@ -19,6 +20,7 @@ export default function Home() {
       <Tithes />
       <SermonsSnippet />
       <MinistriesSnippet />
+      <ResourcesSnippet />
     </main>
   )
 }
