@@ -24,17 +24,16 @@ export default function Footer() {
                         <h3 className="text-xl font-bold underline">Quick Links</h3>
                         <div className="flex flex-row space-x-4 [&>ul>li]:text-sm">
                             <ul className="flex flex-col space-y-4 w-1/2">
-                                <li><Link href="/about" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Our Church</Link></li>
+                                <li><Link href="/" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Home </Link></li>
                                 <li><Link href="/ministries" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Ministries</Link></li>
-                                <li><Link href="/about/beliefs" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Beliefs</Link></li>
+                                <li><Link href="/about/our-beliefs" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Beliefs</Link></li>
                                 <li><Link href="/resources" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Resources</Link></li>
                             </ul>
 
                             <ul className="flex flex-col space-y-4 w-1/2">
-                                <li><Link href="/bulletins" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Bulletins</Link></li>
-                                <li><Link href="/media" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Music</Link></li>
-                                <li><Link href="/media/gallery" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" />
-                                    Gallery</Link></li>
+                                <li><Link href="/about/our-church" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Our Church</Link></li>
+                                <li><Link href="/media/music" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Music</Link></li>
+                                <li><Link href="/media/sermons" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Sermons</Link></li>
                                 <li><Link href="/contact" className="flex items-center hover:text-gray-400"><BiSolidRightArrowAlt className="mr-2" /> Contact Us </Link></li>
                             </ul>
                         </div>
