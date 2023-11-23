@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function OurLeadership() {
 
     return (
-        <div className="w-full bg-gray-50">
+        <div className="w-full bg-gray-100">
             <div className="px-3 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
                 <h3 className='text-tertiary underline font-bold text-2xl lg:leading-8 lg:text-3xl'>
                     Church Leadership
