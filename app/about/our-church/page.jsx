@@ -8,8 +8,8 @@ export const metadata = {
 
 export default function OurChurch() {
     return (
-        <main>
-            <div className="py-12 px-3 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4 h-full">
+        <main className="w-full snippets-bg">
+            <div className="py-8 px-3 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4 h-full">
                 <div className="flex justify-center items-center h-full text-center">
                     <div className="flex items-center flex-col space-y-3">
                         <h2 className="font-semibold text-lg uppercase text-tertiary">Mission Statement</h2>
