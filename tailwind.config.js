@@ -5,6 +5,40 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  sans: [
+    "Inter",
+    "ui-sans-serif",
+    "system-ui",
+    "-apple-system",
+    "system-ui",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "Noto Sans",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji",
+  ],
+  sans: [
+    "Inter",
+    "ui-sans-serif",
+    "system-ui",
+    "-apple-system",
+    "system-ui",
+    "Segoe UI",
+    "Roboto",
+    "Helvetica Neue",
+    "Arial",
+    "Noto Sans",
+    "sans-serif",
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji",
+  ],
   theme: {
     extend: {
       colors: {
@@ -16,11 +50,6 @@ module.exports = {
         tertiary: "#1368a0",
         youtubeRed: "#FF0000",
         facebookBlue: "#0766FF"
-      },
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
   },
