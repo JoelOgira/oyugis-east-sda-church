@@ -9,7 +9,7 @@ export default function Showcase() {
         <div className="px-3 py-16 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4" >
           <div className="flex flex-col-reverse md:flex-row md:space-x-10 md:space-y-0">
             <div className="flex flex-col space-y-6 justify-center mt-8 items-center text-center [&>p]:text-justify sm:[&>p]:text-center md:[&>p]:text-start md:justify-start md:mt-0 md:items-start md:text-start md:w-1/2 lg:grid lg:items-center">
-              <p className='font-semibold text-gray-100 max-w-lg md:max-w-sm lg:leading-8'>
+              <p className='font-semibold text-lg text-gray-100 max-w-lg md:max-w-sm lg:leading-8'>
                 Seventh Day Adventist (SDA) Oyugis East Church is part of a world wide community of Seventh Day Adventist Christians
               </p>
               <p className='text-gray-200 text-sm md:text-base lg:max-w-lg lg:leading-8'>
@@ -19,7 +19,7 @@ export default function Showcase() {
             </div>
 
             <div className="md:w-1/2">
-              <Image src={gcBuilding} alt="sda general conference building" className='h-full italic' />
+              <Image src={gcBuilding} alt="sda general conference building" className='h-full italic rounded-md' />
             </div>
           </div>
         </div>
