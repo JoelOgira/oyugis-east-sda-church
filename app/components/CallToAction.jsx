@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import congregants from '../../public/congregants.jpg';
+import congregants from '../../public/congregants.webp'
 import Image from 'next/image';
 
 export default function CallToAction() {
@@ -11,7 +11,12 @@ export default function CallToAction() {
                 </h2>
                 <div className="flex flex-col-reverse justify-center items-center px-3 md:flex-row md:space-x-10 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4 text-white">
                     <div className="pt-6 md:w-1/2 md:pt-0">
-                        <Image src={congregants} alt='Oyugis East Sda Church Congregation' className='italic rounded' />
+                        <Image
+                            src={congregants}
+                            alt='Oyugis East Sda Church Congregation'
+                            className='italic rounded'
+                            placeholder='blur'
+                        />
                     </div>
                     <div className="flex flex-col space-y-4 md:w-1/2 [&>blockquote]:text-gray-300">
                         <h3 className='font-bold text-lg lg:text-2xl'>
@@ -28,7 +33,7 @@ export default function CallToAction() {
             </div>
             <div className="px-3 py-16 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
                 <div className="flex flex-col justify-center items-center text-center space-y-5">
-                    <h2 className="flex flex-col space-y-3 text-base font-semibold pb-6 sm:text-2xl lg:text-3xl">
+                    <h2 className="flex flex-col space-y-3 tracking-tight text-base font-semibold pb-6 sm:text-2xl lg:text-3xl">
                         <span>For where two or three are gathered together in My name, I am there in the midst of them - Matthew 18:20 (NKJV)</span>
                         <span>Come, let us gather in fellowship each Sabbath to explore the teachings of the Scriptures and rejoice in His presence.</span>
                     </h2>
