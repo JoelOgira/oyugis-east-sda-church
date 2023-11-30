@@ -1,5 +1,5 @@
 import Button from "./utils/Button"
-import gcBuilding from "../../public/GC-Building.jpg"
+import gcBuilding from "../../public/gc.webp"
 import Image from "next/image"
 
 export default function Showcase() {
@@ -15,7 +15,7 @@ export default function Showcase() {
               <p className='text-gray-200 text-sm md:text-base lg:max-w-lg lg:leading-8'>
                 Our mission as Seventh – day Adventists is “To bring the people of God into a meaningful Church fellowship, witnessing to every neighbourhood, preaching the Good News, serving mankind and developing disciples for Jesus to prepare for Christ’s second coming”.
               </p>
-              <Button href={'https://gc.adventist.org/'} title={'Learn More'} />
+              <Button href={'https://gc.adventist.org/'} title={'General Conference'} />
             </div>
 
             <div className="md:w-1/2">
