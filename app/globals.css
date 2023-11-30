@@ -77,7 +77,17 @@ h2 {
 
 /* Carousel */
 .slider-1 {
-  background: url("../public/choir1.jpg");
+  background: url("../public/choir-1.webp");
+  background-size: 100% 100%;
+}
+
+.slider-2 {
+  background: url("../public/congregation.webp");
+  background-size: 100% 100%;
+}
+
+.slider-3 {
+  background: url("../public/worship.webp");
   background-size: 100% 100%;
 }
 /* Carousel */
@@ -101,13 +111,21 @@ h2 {
 }
 
 .footer-bg {
-  background: url("../public/congregation.jpg");
+  background: url("../public/congregation.webp");
   background-size: 100% 100%;
 }
 
 @media(max-width: 768px) {
+  .slider-2 {
+    background: url("../public/congregation.webp")no-repeat fixed center center;
+    background-size: cover;
+  }
+  .slider-3 {
+    background: url("../public/worship.webp")no-repeat fixed center center;
+    background-size: cover;
+  }
   .footer-bg {
-    background-image: url("../public/congregation.jpg")no-repeat fixed center center;
+    background-image: url("../public/congregation.webp")no-repeat fixed center center;
     background-size: cover;
   }
 }
