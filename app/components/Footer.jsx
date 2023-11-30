@@ -47,8 +47,8 @@ export default function Footer() {
                             <p><span><MdMail className="mr-2 text-xl text-gray-400" /></span> Email: info@oecsda.org </p>
                             <p className="space-x-5">
                                 <span className="text-xl text-gray-400"><IoShareSocialOutline /></span>
-                                <a href="https://www.youtube.com/@oyugiseastsdachurchchoir5643" target="_blank" rel="noreferrer"><AiFillYoutube className="text-xl text-youtubeRed" /></a>
-                                <a href="https://web.facebook.com/oyugiseast.sdachurch/?_rdc=1&_rdr" target="_blank" rel="noreferrer"><AiFillFacebook className="text-xl text-facebookBlue" /></a>
+                                <a href="https://www.youtube.com/@oyugiseastsdachurchchoir5643" target="_blank" rel="noreferrer" aria-label="Oyugis East Sda Church Youtube Channel"><AiFillYoutube className="text-xl text-youtubeRed" /></a>
+                                <a href="https://web.facebook.com/oyugiseast.sdachurch/?_rdc=1&_rdr" target="_blank" rel="noreferrer" aria-label="Oyugis East Sda Facebook Page"><AiFillFacebook className="text-xl text-facebookBlue" /></a>
                             </p>
                         </div>
                     </div>
