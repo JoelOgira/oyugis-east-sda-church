@@ -4,7 +4,6 @@
 import useEmblaCarousel from 'embla-carousel-react'
 import AutoPlay from 'embla-carousel-autoplay'
 import { GiPartyPopper } from 'react-icons/gi'
-import Button from './utils/ButtonInternal'
 
 export default function EmblaCarousel() {
 
@@ -20,7 +19,7 @@ export default function EmblaCarousel() {
             <div className="flex">
 
                 <div className="flex-shrink-0 flex-grow-0 w-full min-w-0">
-                    <div className="slider-1 flex w-full items-center justify-center">
+                    <div className="slider-1 flex w-full items-center justify-center h-[358px] sm:h-[338px] md:h-[478px] lg:h-[506px]">
                         <div className="bg-black py-3 w-full h-full bg-opacity-[.70] lg:py-10">
                             <div className="px-3 py-8 md:px-0 md:container md:mx-auto md:w-5/6 lg:w-3/4">
                                 <div className="flex justify-center items-center md:justify-start md:items-start">
@@ -36,16 +35,24 @@ export default function EmblaCarousel() {
                                         <h2 className='text-gray-600 font-semibold text-2xl lg:max-w-xs lg:text-3xl lg:leading-10'>
                                             Celebrating 10 years of Ministry
                                         </h2>
-                                        <p className='text-sm leading-5 text-gray-900 text-justify md:text-base lg:text-base'>
+                                        <p className='text-sm leading-5 tracking-tight text-gray-900 text-justify md:text-base lg:text-base'>
                                             We are thrilled to announce a momentous occasion in our faith journey – the Oyugis East SDA Church is celebrating its tenth anniversary! A decade of unwavering devotion, steadfast community, and spiritual growth has brought us to this remarkable milestone.
                                         </p>
-                                        <Button href={'/about'} title={'Learn More'} />
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <div className="flex-shrink-0 flex-grow-0 w-full">
+                    <div className="slider-2 flex w-full min-w-0 h-[358px] sm:h-[338px] md:h-[478px] lg:h-[506px]"></div>
+                </div>
+
+                <div className="flex-shrink-0 flex-grow-0 w-full">
+                    <div className="slider-3 flex w-full min-w-0 h-[358px] sm:h-[338px] md:h-[478px] lg:h-[506px]"></div>
+                </div>                
+
             </div>
         </main>
     )
