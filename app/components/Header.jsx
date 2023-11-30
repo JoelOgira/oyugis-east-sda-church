@@ -85,6 +85,7 @@ export default function Header() {
 
                 <button
                     onClick={() => { handleOpen(); handleHidden() }}
+                    aria-label='Hamburger Menu'
                     className={`hamburger ${isOpen ? '' : 'open'} block lg:hidden focus:outline-none hover:text-[#ec4949]`}
                 >
                     <div>
