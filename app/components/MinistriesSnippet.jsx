@@ -35,14 +35,14 @@ export default function MinistriesSnippet() {
                             <MdChevronLeft className='opacity-50 cursor-pointer hover:opacity-100' onClick={slideLeft} size={40} />
                             <div id="slider" className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth'>
                                 {(ministriesList || []).map((ministry) => (
-                                    <div key={ministry?.id} className="inline-block p-2 px-4 hover:scale-105 ease-in-out duration-300">
+                                    <div key={ministry?.id} className="inline-block p-2 px-3 hover:scale-105 ease-in-out duration-300">
                                         <Image
                                             loading='lazy'
                                             src={ministry?.img}
                                             alt={ministry?.name}
-                                            className='w-[120px]'
+                                            className='w-[100px]'
                                         />
-                                        <p className="text-center">{ministry?.shortName}</p>
+                                        <p className="text-center text-xs">{ministry?.shortName}</p>
                                     </div>
                                 ))}
                             </div>
@@ -51,8 +51,8 @@ export default function MinistriesSnippet() {
                     </div>
                 </div>
 
-                <div className="flex justify-center items-center my-10">
-                    <Button href={'/ministries'} title={'Learn More'} />
+                <div className="flex justify-start items-start my-10">
+                    <Button href={'/ministries'} title={'Our Ministries'} />
                 </div>
 
             </div>
