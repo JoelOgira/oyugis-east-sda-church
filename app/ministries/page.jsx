@@ -14,12 +14,12 @@ export default function Ministries() {
           {(ministriesList || []).slice(0, 12).map((ministry) => (
             <div key={ministry?.id} className="flex flex-col space-y-3">
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
-              <div className="flex space-x-2 p-1 border rounded-md border-primary">
+              <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
-                  <p className='px-2 lg:text-justify'>{ministry?.description}</p>
+                  <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
                 </div>
               </div>
             </div>
@@ -29,12 +29,12 @@ export default function Ministries() {
           {(ministriesList || []).slice(12, 13).map((ministry) => (
             <div key={ministry?.id} className="flex flex-col space-y-3">
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
-              <div className="flex space-x-2 p-1 border rounded-md border-primary">
+              <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
-                  <p className='px-2 lg:text-justify'>{ministry?.description}</p>
+                  <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
                 </div>
               </div>
             </div>
@@ -44,12 +44,12 @@ export default function Ministries() {
           {(ministriesList || []).slice(13, 15).map((ministry) => (
             <div key={ministry?.id} className="flex flex-col space-y-3">
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
-              <div className="flex space-x-2 p-1 border rounded-md border-primary">
+              <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
-                  <p className='px-2 lg:text-justify'>{ministry?.description}</p>
+                  <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
                 </div>
               </div>
             </div>
@@ -59,12 +59,12 @@ export default function Ministries() {
           {(ministriesList || []).slice(15, 16).map((ministry) => (
             <div key={ministry?.id} className="flex flex-col space-y-3">
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
-              <div className="flex space-x-2 p-1 border rounded-md border-primary">
+              <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
-                  <p className='px-2 lg:text-justify'>{ministry?.description}</p>
+                  <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
                 </div>
               </div>
             </div>
