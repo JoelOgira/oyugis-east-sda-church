@@ -1,10 +1,9 @@
 "use client"
 
-
 import Link from 'next/link'
 import { useState } from 'react'
 import Image from 'next/image'
-import logo from '../../public/logo_sda.png'
+import logo from '../../public/logo_sda.webp'
 import { MdOutlineKeyboardArrowUp } from 'react-icons/md'
 import { MdOutlineKeyboardArrowDown } from 'react-icons/md'
 
