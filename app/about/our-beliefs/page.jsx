@@ -20,7 +20,7 @@ export default function OurBeliefs() {
                                     {belief?.title}
                                 </h2>
                                 <div className="border border-l-8 border-l-tertiary p-6">
-                                    <p className="leading-6 text-sm">
+                                    <p className="leading-6 text-sm md:text-base">
                                         {belief?.belief}
                                     </p>
                                 </div>
