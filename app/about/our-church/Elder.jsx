@@ -6,7 +6,13 @@ const Elder = ({ src, title, name, number }) => {
     return (
         <div className="flex flex-col border rounded-md border-tertiary shadow-md bg-white">
             <div className="flex justify-center items-center border-b-4 border-b-tertiary">
-                <Image loading="lazy" src={src} alt={name} className='h-[300px] italic' />
+                <Image 
+                    loading="lazy" 
+                    src={src} 
+                    alt={name} 
+                    className='h-[300px] italic' 
+                    placeholder='blur'
+                />
             </div>
             <div className="flex flex-col px-3">
                 <div className="flex flex-col space-y-2 justify-start py-4 items-start text-justify md:justify-start md:mt-0 md:items-start md:text-start">
