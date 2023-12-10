@@ -16,7 +16,7 @@ export default function Ministries() {
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
               <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image placeholder='blur' className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
                   <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
@@ -31,7 +31,7 @@ export default function Ministries() {
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
               <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image placeholder='blur' className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
                   <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
@@ -46,7 +46,7 @@ export default function Ministries() {
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
               <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image placeholder='blur' className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
                   <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
@@ -61,7 +61,7 @@ export default function Ministries() {
               <h2 className="text-xl font-semibold">{ministry?.name}</h2>
               <div className="flex space-x-2 py-3 border rounded-md border-primary">
                 <div className="w-3/12">
-                  <Image className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
+                  <Image placeholder='blur' className="pl-2 italic" loading="lazy" src={ministry?.img} alt={ministry?.name} />
                 </div>
                 <div className="grid items-center w-9/12">
                   <p className='px-2 text-sm md:text-base lg:text-justify'>{ministry?.description}</p>
