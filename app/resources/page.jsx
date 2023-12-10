@@ -16,7 +16,7 @@ export default function Resources() {
                 {(booksList || []).map((book, index) => (
                     <div key={index} className="flex flex-col items-center">
                         <div className="flex space-x-3">
-                            <Image loading='lazy' src={book?.src} alt={book?.title} className='h-[150px] pt-[0.80rem]' />
+                            <Image placeholder='blur' loading='lazy' src={book?.src} alt={book?.title} className='h-[150px] pt-[0.80rem]' />
                             <div className="flex flex-col space-y-1">
                                 <h2 className='font-semibold pt-2'>{book?.title}</h2>
                                 <p className='text-sm text-justify pb-3'>{book?.description.substring(0, 250)}... <a href={book?.read} className='underline' target='_blank' rel="noreferrer">read more</a></p>
