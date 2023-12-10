@@ -14,7 +14,11 @@ export default function OurLeadership() {
                 </h3>
                 <div className="flex flex-col md:flex-row md:space-x-10 md:space-y-0 pt-16">
                     <div className="flex justify-center items-center md:w-1/2">
-                        <Image src={pastor} alt="sda general conference building" className='h-[300px] w-[300px] md:h-[350px] md:w-[350px]' />
+                        <Image 
+                            src={pastor} alt="sda general conference building" 
+                            className='h-[300px] w-[300px] md:h-[350px] md:w-[350px]' 
+                            placeholder='blur'
+                        />
                     </div>
 
                     <div className="flex flex-col space-y-4 justify-start mt-8 items-start text-justify md:justify-start md:mt-0 md:items-start md:text-start md:w-1/2">
