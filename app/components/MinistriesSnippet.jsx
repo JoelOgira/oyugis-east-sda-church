@@ -41,6 +41,7 @@ export default function MinistriesSnippet() {
                                             src={ministry?.img}
                                             alt={ministry?.name}
                                             className='w-[100px]'
+                                            placeholder= 'blur'
                                         />
                                         <p className="text-center text-xs">{ministry?.shortName}</p>
                                     </div>
