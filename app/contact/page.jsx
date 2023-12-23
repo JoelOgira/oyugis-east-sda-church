@@ -43,7 +43,7 @@ export default function Contact() {
                             <TfiEmail className="text-2xl text-primary" />
                             <div>
                                 <h2 className="font-semibold  pb-1 text-base text-primary">Email Address</h2>
-                                <p className="max-w-sm text-sm">info@oecsda.org</p>
+                                <p className="max-w-sm text-sm">oyugiseast2019@gmail.com</p>
                             </div>
                         </div>
 
