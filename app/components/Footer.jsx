@@ -44,7 +44,7 @@ export default function Footer() {
                         <div className="flex flex-col space-y-5 [&>p]:flex [&>p]:items-center [&>p]:text-sm">
                             <p><FaLocationDot className="mr-2 text-xl text-gray-400" /> Oyugis Town, off Kisii-Kisumu highway</p>
                             <p><FaPhone className="mr-2 text-xl text-gray-400" />Phone: +254713446764</p>
-                            <p><span><MdMail className="mr-2 text-xl text-gray-400" /></span> Email: info@oecsda.org </p>
+                            <p><span><MdMail className="mr-2 text-xl text-gray-400" /></span> Email: oyugieseast2019@gmail.com </p>
                             <p className="space-x-5">
                                 <span className="text-xl text-gray-400"><IoShareSocialOutline /></span>
                                 <a href="https://www.youtube.com/@oyugiseastsdachurchchoir5643" target="_blank" rel="noreferrer" aria-label="Oyugis East Sda Church Youtube Channel"><AiFillYoutube className="text-xl text-youtubeRed" /></a>
