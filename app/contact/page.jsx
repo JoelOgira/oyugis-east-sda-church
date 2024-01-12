@@ -24,7 +24,6 @@ export default function Contact() {
                             <VscLocation className="text-3xl text-primary" />
                             <div>
                                 <h2 className="font-semibold  pb-1 text-base text-primary">Address</h2>
-                                <p className="max-w-sm text-sm">P.O Box 384-4020 Homabay</p>
                                 <p className="max-w-sm text-sm">Oyugis Town, off Kisii-Kisumu highway</p>
                             </div>
                         </div>
