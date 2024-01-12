@@ -51,7 +51,7 @@ export default function Header() {
                     <div onMouseEnter={handleAbout} onMouseLeave={handleAbout} className="cursor-pointer">
                         <div className="hover:text-gray-400 flex items-center space-x-1">
                             <span>About Us</span>
-                            <span>{isAboutClosed ? <MdOutlineKeyboardArrowUp /> : <MdOutlineKeyboardArrowDown />}</span>
+                            <span>{isAboutClosed ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</span>
                         </div>
                         {isAboutClosed ? '' :
                             <div className="z-50">
@@ -68,7 +68,7 @@ export default function Header() {
                     <div onMouseEnter={handleMedia} onMouseLeave={handleMedia} className="cursor-pointer">
                         <div className="hover:text-gray-400 flex items-center space-x-1">
                             <span>Media</span>
-                            <span>{isMediaClosed ? <MdOutlineKeyboardArrowUp /> : <MdOutlineKeyboardArrowDown />}</span>
+                            <span>{isMediaClosed ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</span>
                         </div>
                         {isMediaClosed ? '' :
                             <div className="z-50">
@@ -103,7 +103,7 @@ export default function Header() {
                         <div onClick={handleAbout} className="cursor-pointer">
                             <div className="flex items-center space-x-1">
                                 <span>About Us</span>
-                                <span>{isAboutClosed ? <MdOutlineKeyboardArrowUp /> : <MdOutlineKeyboardArrowDown />}</span>
+                                <span>{isAboutClosed ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</span>
                             </div>
                             {isAboutClosed ? '' :
                                 <div className="z-50">
@@ -120,7 +120,7 @@ export default function Header() {
                         <div onClick={handleMedia} className="cursor-pointer">
                             <div className="flex items-center space-x-1">
                                 <span>Media</span>
-                                <span>{isMediaClosed ? <MdOutlineKeyboardArrowUp /> : <MdOutlineKeyboardArrowDown />}</span>
+                                <span>{isMediaClosed ? <MdOutlineKeyboardArrowDown /> : <MdOutlineKeyboardArrowUp />}</span>
                             </div>
                             {isMediaClosed ? '' :
                                 <div className="z-50">
